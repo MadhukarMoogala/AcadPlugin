@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+    <PropertyGroup>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="AutoCAD.NET" Version="25.0.1" />
+      <PackageReference Include="Microsoft.ClearScript" Version="7.4.5" />
+    </ItemGroup>
+</Project>
