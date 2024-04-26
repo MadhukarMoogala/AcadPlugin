@@ -1,4 +1,4 @@
-# How to Run Javascript Routines in Autocad .Net Plugin Using ClearScript Library
+# How to Run Javascript Routines in AutoCAD .NET Plugin Using ClearScript Library
 
 ![Static Badge](https://img.shields.io/badge/AutoCAD-2025-blue)
 ![Static_Badge](https://img.shields.io/badge/NET-8.0-blue)
