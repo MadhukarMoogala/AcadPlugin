@@ -4,7 +4,7 @@
 ![Static_Badge](https://img.shields.io/badge/NET-8.0-blue)
 ![Static Badge](https://img.shields.io/badge/build-passing-brightgreen)
 
-The project  demonstrates a well-structured approach to running JavaScript routines in an AutoCAD .NET plugin using the [ClearScript]([ClearScript | Add scripting to your .NET applications quickly and easily.](https://microsoft.github.io/ClearScript/)) library.
+The project  demonstrates a well-structured approach to running JavaScript routines in an AutoCAD .NET plugin using the [ClearScript | Add scripting to your .NET applications quickly and easily.](https://microsoft.github.io/ClearScript/)
 
 - **Exposing AutoCAD .NET Classes:** Enables access to AutoCAD functionality from JavaScript scripts.
 - **Executing JavaScript Functions:** Allows you to run JavaScript functions within your AutoCAD application.
@@ -109,6 +109,9 @@ dotnet build AcadPlugin.csproj -a x64 -c Debug
 - NETLOAD the AcadPlugin.dll
 
 - Execute `JSROUTINE` command in AutoCAD Command Line.
+
+  ![result](https://github.com/MadhukarMoogala/AcadPlugin/assets/6602398/8be874c7-aa9f-4808-b3d3-70040e4199ca)
+
 
 ### **License**
 
